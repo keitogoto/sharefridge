@@ -8,8 +8,7 @@
 </head>
 <body>
     <?php
-    print"sharefridge"
+        print "sharefridge";
     ?>
 </body>
 </html>
-
