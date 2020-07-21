@@ -7,9 +7,11 @@
     <link rel="stylesheet" href="../css_files/stylesheet.css">
 </head>
 <body>
-<header class="topNavigation">
-    <p class="service_name">sharefridge</p>
-    </header>
+<header>
+    <div class="container">
+        <img class="fridge-img" src="../images/fridge.png">
+    </div>
+</header>
     <div class="content">
         <p>コンテンツ</p>
     </div>

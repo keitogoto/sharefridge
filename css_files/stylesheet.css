@@ -2,16 +2,47 @@ body{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    margin:0px;
 }
-.topNavigation{
+
+header{
+    background-color: #888;
+}
+
+header .container{
+    float:left;
+    height:70px;
+    text-align: center;
+    /* background-color: #888; */
+    color: #fff;
+    line-height:70px;
+}
+
+.fridge-img{
+    width:60px;
+    height:60px;
+    vertical-align:middle; /*imgをline-heightを中央揃えするときはこれが必要*/
+}
+
+.service_name{
+    font-size:25px;
+    margin:0px;
+    width:160px;
+    height:70px;
+    line-height:70px;
+    float:left;
+}
+
+/* .topNavigation{
     height: 70px;
     text-align: center;
     background-color: #888;
     color: #fff;
-}
+} */
+
 .content{
     flex: 1;
     background-color: #eee;
     text-align: center;
-    margin-top: 10px;
+    /* margin-top: 10px; */
 }
