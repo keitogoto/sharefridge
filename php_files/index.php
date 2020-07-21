@@ -8,10 +8,16 @@
 </head>
 <body>
 <header>
+    <a href="index.php">
     <div class="logo-container">
         <img class="fridge-img" src="../images/fridge.png">
         <p class="logo">sharefridge</p>
     </div>
+    </a>
+    <!-- <div class="logo-container">
+        <img class="fridge-img" src="../images/fridge.png">
+        <p class="logo">sharefridge</p>
+    </div> -->
 </header>
     <div class="content">
         <p>コンテンツ</p>
