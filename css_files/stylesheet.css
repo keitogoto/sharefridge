@@ -1,0 +1,16 @@
+body{
+    display: flex;
+    min-height: 100vh;
+}
+.leftNavigation{
+    width: 250px;
+    text-align: center;
+    background-color: #888;
+    color: #fff;
+}
+.content{
+    flex: 1;
+    background-color: #eee;
+    text-align: center;
+    margin-left: 10px;
+}

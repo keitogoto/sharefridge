@@ -7,8 +7,11 @@
     <link rel="stylesheet" href="css_files/stylesheet.css">
 </head>
 <body>
-    <?php
-        print "sharefridge";
-    ?>
+<header class="leftNavigation">
+    <p>ナビゲーション</p>
+    </header>
+    <div class="content">
+        <p>コンテンツ</p>
+    </div>
 </body>
 </html>
