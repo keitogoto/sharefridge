@@ -20,7 +20,7 @@
     </div> -->
 </header>
     <div class="content">
-        <p>コンテンツ</p>
+        <p>ログイン画面and新規登録画面</p>
     </div>
 </body>
 </html>
