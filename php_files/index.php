@@ -7,10 +7,9 @@
     <link rel="stylesheet" href="css_files/stylesheet.css">
 </head>
 <body>
-    
+    <?php
+    print"sharefridge"
+    ?>
 </body>
 </html>
 
-<!-- <?php
-print"sharefridge"
-?> -->
