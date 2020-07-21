@@ -9,7 +9,7 @@
 <body>
 <header>
     <a href="index.php">
-    <div class="logo-container">
+    <div class="logo-wrapper">
         <img class="fridge-img" src="../images/fridge.png">
         <p class="logo">sharefridge</p>
     </div>
