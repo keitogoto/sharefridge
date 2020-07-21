@@ -8,7 +8,7 @@
 </head>
 <body>
 <header class="leftNavigation">
-    <p>ナビゲーション</p>
+    <p>sharefridge</p>
     </header>
     <div class="content">
         <p>コンテンツ</p>
