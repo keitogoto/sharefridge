@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="../css_files/stylesheet.css">
 </head>
 <body>
-<header class="leftNavigation">
-    <p>sharefridge</p>
+<header class="topNavigation">
+    <p class="service_name">sharefridge</p>
     </header>
     <div class="content">
         <p>コンテンツ</p>
