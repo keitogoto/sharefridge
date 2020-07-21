@@ -8,8 +8,9 @@
 </head>
 <body>
 <header>
-    <div class="container">
+    <div class="logo-container">
         <img class="fridge-img" src="../images/fridge.png">
+        <p class="logo">sharefridge</p>
     </div>
 </header>
     <div class="content">

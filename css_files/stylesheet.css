@@ -9,36 +9,31 @@ header{
     background-color: #888;
 }
 
-header .container{
+.logo-container{
     float:left;
     height:70px;
+    /* width:230px; */
+    width:auto;
     text-align: center;
-    /* background-color: #888; */
     color: #fff;
     line-height:70px;
 }
 
 .fridge-img{
-    width:60px;
-    height:60px;
-    vertical-align:middle; /*imgをline-heightを中央揃えするときはこれが必要*/
+    width:45px;
+    height:45px;
+    /* float:left;これがあると、縦方向の真ん中に寄らない */
+    vertical-align:middle;
 }
 
-.service_name{
+.logo{
     font-size:25px;
     margin:0px;
     width:160px;
     height:70px;
     line-height:70px;
-    float:left;
+    float:right;
 }
-
-/* .topNavigation{
-    height: 70px;
-    text-align: center;
-    background-color: #888;
-    color: #fff;
-} */
 
 .content{
     flex: 1;
