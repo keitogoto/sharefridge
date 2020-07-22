@@ -9,10 +9,10 @@
 <body>
 <header>
     <a href="index.php">
-    <div class="logo-wrapper">
-        <img class="fridge-img" src="../images/fridge.png">
-        <p class="logo">sharefridge</p>
-    </div>
+        <div class="logo-wrapper">
+            <img class="fridge-img" src="../images/fridge.png">
+            <p class="logo">sharefridge</p>
+        </div>
     </a>
     <!-- <div class="logo-container">
         <img class="fridge-img" src="../images/fridge.png">
