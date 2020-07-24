@@ -75,3 +75,31 @@ header{
 
 /*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  */
 
+form{
+    /* margin-top:20px; */
+    /* width:300px;
+    margin:0 auto; */
+}
+
+legend{
+    text-align: center;
+    color:#888;
+
+    background:transparent url(/content/img/css/funwithforms/legend_bg.gif) no-repeat;
+    font-size:1.5em;
+    font-weight:bold;
+}
+
+#funwithforms{
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    font-weight: bold;
+    color: #888;/*文字色*/
+    background: #FFF;
+    border: solid 3px #888;/*線*/
+    border-radius: 10px;/*角の丸み*/
+
+    width:300px;
+    margin:0 auto;
+    margin-top:20px;
+}
