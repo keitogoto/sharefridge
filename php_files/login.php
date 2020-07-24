@@ -13,7 +13,7 @@
         <a href="index.php">
             <div class="logo-wrapper">
                 <img class="fridge-img" src="../images/fridge.png">
-                <p class="logo">sharefridge</p>
+                <p class="logo">ログイン</p>
             </div>
         </a>
         <!-- <div class="logo-container">
@@ -22,11 +22,7 @@
     </div> -->
     </header>
     <div class="content">
-        <!-- <p>ログイン画面and新規登録画面</p> -->
-        <!-- ログイン画面へ遷移 -->
-        <a href="">ログイン</a>
-        <!-- 新規登録画面へ遷移 -->
-        <a href="">新規登録</a>
+
     </div>
 </body>
 
