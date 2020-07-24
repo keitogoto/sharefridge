@@ -130,22 +130,7 @@ div#funwithforms .textfield {
 div#funwithforms fieldset>input.textfield {
     background: transparent url(/content/img/css/funwithforms/textfield_bg.gif) no-repeat;
 }
-div#funwithforms textarea {
-    font:1.1em Verdana, Arial, Helvetica, sans-serif;
-    color:#333 ;
-    margin:3px;
-    height:165px;
-    border:solid 0 #fff;
-    padding: 0 8px;
-    background: transparent url(/content/img/css/funwithforms/textarea_bg.gif) no-repeat fixed;
-    width:200px;
-    voice-family: "\"}\""; 
-    voice-family:inherit;
-    width:190px;
-}
-div#funwithforms fieldset>textarea {
-    background: transparent url(/content/img/css/funwithforms/textarea_bg.gif) no-repeat;
-}
+
 div#funwithforms .submit {
     margin:3px;
     background: transparent url(/content/img/css/funwithforms/submit.gif) no-repeat;
