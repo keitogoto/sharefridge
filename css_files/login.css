@@ -81,7 +81,7 @@ form{
 
 legend{
     text-align: center;
-    color:white;
+    color:#888;
 
     background:transparent url(/content/img/css/funwithforms/legend_bg.gif) no-repeat;
     font-size:1.5em;
