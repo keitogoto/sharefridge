@@ -77,8 +77,8 @@ header{
 
 form{
     /* margin-top:20px; */
-    width:300px;
-    margin:0 auto;
+    /* width:300px;
+    margin:0 auto; */
 }
 
 legend{
@@ -98,4 +98,7 @@ legend{
     background: #FFF;
     border: solid 3px #888;/*線*/
     border-radius: 10px;/*角の丸み*/
+
+    width:300px;
+    margin:0 auto;
 }
