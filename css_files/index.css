@@ -39,6 +39,7 @@ header{
     flex: 1;
     background-color: #eee;
     margin: 0 auto;
+    text-align: center;
     width:100%;
 }
 
