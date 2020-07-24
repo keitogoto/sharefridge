@@ -22,11 +22,10 @@
     </div> -->
     </header>
     <div class="content">
-        <!-- <p>ログイン画面and新規登録画面</p> -->
         <!-- ログイン画面へ遷移 -->
-        <a href="login.php">ログイン</a>
+        <a class="to_login" href="login.php">ログイン</a>
         <!-- 新規登録画面へ遷移 -->
-        <a href="register.php">新規登録</a>
+        <a class="to_register" href="register.php">新規登録</a>
     </div>
 </body>
 

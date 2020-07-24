@@ -41,3 +41,29 @@ header{
     text-align: center;
     /* margin-top: 10px; */
 }
+
+.to_login{
+    padding: 0 10px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 50%, rgb(49, 170, 226) 50%);
+    background-position: 0 0;
+    background-size: 200% auto;
+    transition: .3s;
+}
+
+.to_login:hover{
+    background-position: -100% 0;
+    color: #fff;
+}
+
+.to_register{
+    padding: 0 10px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 50%, rgb(49, 170, 226) 50%);
+    background-position: 0 0;
+    background-size: 200% auto;
+    transition: .3s;
+}
+
+.to_register:hover{
+    background-position: -100% 0;
+    color: #fff;
+}
