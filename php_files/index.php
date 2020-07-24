@@ -24,9 +24,9 @@
     <div class="content">
         <div class="button-wrapper">
             <!-- ログイン画面へ遷移 -->
-            <a class="to_login" href="login.php">ログイン</a>
+            <a class="to_login" href="login.php">LOGIN</a>
             <!-- 新規登録画面へ遷移 -->
-            <a class="to_register" href="register.php">新規登録</a>
+            <a class="to_register" href="register.php">REGISTER</a>
         </div>
     </div>
 </body>
