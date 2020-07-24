@@ -51,7 +51,7 @@ header{
     display: block;
     height:50px;
     line-height: 50px;
-    width:50px;
+    width:100px;
 }
 
 .to_login:hover{
@@ -72,7 +72,7 @@ header{
     display: block;
     height:50px;
     line-height: 50px;
-    width:50px;
+    width:100px;
 }
 
 .to_register:hover{
@@ -82,4 +82,8 @@ header{
 
 .to_register:visited{
     color : #888;
+}
+
+.button-wrapper{
+    text-align: center;
 }
