@@ -40,6 +40,7 @@ header{
     background-color: #eee;
     text-align: center;
     /* margin-top: 10px; */
+    width:auto;
 }
 
 .to_login{
