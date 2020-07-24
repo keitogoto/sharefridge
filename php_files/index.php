@@ -24,9 +24,9 @@
     <div class="content">
         <!-- <p>ログイン画面and新規登録画面</p> -->
         <!-- ログイン画面へ遷移 -->
-        <a href="">ログイン</a>
+        <a href="login.php">ログイン</a>
         <!-- 新規登録画面へ遷移 -->
-        <a href="">新規登録</a>
+        <a href="register.php">新規登録</a>
     </div>
 </body>
 
