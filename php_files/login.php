@@ -31,10 +31,6 @@
                         id="name" /><br>
                     <label for="email">Email</label><br class="br" /><input name="email" type="text" class="textfield"
                         id="email" /><br />
-                    <label for="website">Website</label><br class="br" /><input name="website" type="text"
-                        class="textfield" id="website" value="http://" /><br>
-                    <label for="comment">Comment</label><br class="br" /><textarea cols="30" rows="15" name="comment"
-                        id="comment"></textarea><br>
                     <label for="submit">&nbsp;</label><br class="br" /><input name="submit" type="submit" class="submit"
                         id="submit" value="submit" />
                 </fieldset>
