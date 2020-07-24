@@ -30,6 +30,8 @@
                     id="user_id" /><br>
                 <label for="password">PASSWORD</label><br class="br" /><input name="password" type="text"
                     class="textfield" id="password" /><br />
+                <label for="submit">&nbsp;</label><br class="br" /><input name="submit" type="submit" class="submit"
+                    id="submit" value="submit" />
             </form>
         </div>
     </div>
