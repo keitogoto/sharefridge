@@ -38,7 +38,7 @@ header{
 .content{
     flex: 1;
     background-color: #eee;
-    text-align: center;
+    margin: 0 auto;
     width:100%;
 }
 
@@ -85,6 +85,6 @@ header{
 }
 
 .button-wrapper{
-    text-align: center;
+    margin: 0 auto;
     width:200px;
 }
