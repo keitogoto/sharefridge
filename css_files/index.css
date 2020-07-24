@@ -49,7 +49,7 @@ header{
     background-position: 0 0;
     background-size: 200% auto;
     transition: .3s;
-    display: block;
+    display:inline-block;
     height:50px;
     line-height: 50px;
     width:100px;
@@ -72,7 +72,7 @@ header{
     background-position: 0 0;
     background-size: 200% auto;
     transition: .3s;
-    display: block;
+    display: inline-block;
     height:50px;
     line-height: 50px;
     width:100px;
