@@ -49,6 +49,7 @@ header{
     background-size: 200% auto;
     transition: .3s;
     display: block;
+    padding-top:100px;
 }
 
 .to_login:hover{
@@ -63,6 +64,7 @@ header{
     background-size: 200% auto;
     transition: .3s;
     display: block;
+    padding-top:100px;
 }
 
 .to_register:hover{
