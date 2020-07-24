@@ -41,3 +41,33 @@ header{
     text-align: center;
     /* margin-top: 10px; */
 }
+
+.to_top{
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    font-weight: bold;
+    color: #6091d3;/*文字色*/
+    background: #FFF;
+    border: solid 3px #888;/*線*/
+    border-radius: 10px;/*角の丸み*/
+
+    /* padding: 0.5em 1em;
+    margin: 2em 0;
+    color: white;
+    background: #888;
+    border-top: solid 5px #5d627b;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22); */
+
+    /* padding: 0 10px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 50%,#888 50%);
+    background-position: 0 0;
+    background-size: 200% auto;
+    transition: .3s; */
+    display: block;
+    height:50px;
+    line-height: 50px;
+    width:100px;
+    padding:0px;
+    margin:0 auto;
+    margin-top:10px;
+}
