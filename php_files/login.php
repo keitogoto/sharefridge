@@ -28,6 +28,8 @@
                 <legend>LOGIN FORM</legend>
                 <label for="user_id">USER ID</label><br class="br" /><input name="user_id" type="text" class="textfield"
                     id="user_id" /><br>
+                <label for="password">PASSWORD</label><br class="br" /><input name="password" type="text"
+                    class="textfield" id="password" /><br />
             </form>
         </div>
     </div>
