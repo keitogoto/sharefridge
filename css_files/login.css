@@ -75,8 +75,12 @@ header{
 
 /*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  */
 
+form{
+    margin-top:20px;
+}
+
 legend{
     text-align: center;
     color:white;
-    
+
 }
