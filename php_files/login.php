@@ -24,16 +24,8 @@
     <div class="content">
         <a class="to_top" href="index.php">TOP</a>
         <div id="funwithforms">
-            <form action="#" method="post" onsubmit="return false;">
-                <fieldset>
-                    <legend>LOGIN FORM</legend>
-                    <label for="name">Name</label><br class="br" /><input name="name" type="text" class="textfield"
-                        id="name" /><br>
-                    <label for="email">Email</label><br class="br" /><input name="email" type="text" class="textfield"
-                        id="email" /><br />
-                    <label for="submit">&nbsp;</label><br class="br" /><input name="submit" type="submit" class="submit"
-                        id="submit" value="submit" />
-                </fieldset>
+            <form action="">
+                <legend>LOGIN FORM</legend>
             </form>
         </div>
     </div>
