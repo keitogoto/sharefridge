@@ -26,8 +26,8 @@
         <div id="funwithforms">
             <form action="">
                 <legend>LOGIN FORM</legend>
-                <label for="name">USER ID</label><br class="br" /><input name="name" type="text" class="textfield"
-                    id="name" /><br>
+                <label for="user_id">USER ID</label><br class="br" /><input name="user_id" type="text" class="textfield"
+                    id="user_id" /><br>
             </form>
         </div>
     </div>
