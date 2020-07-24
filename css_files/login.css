@@ -100,5 +100,6 @@ legend{
     border-radius: 10px;/*角の丸み*/
 
     width:300px;
-    margin:20 auto;
+    margin:0 auto;
+    margin-top:20px;
 }
