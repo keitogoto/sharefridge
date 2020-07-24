@@ -53,7 +53,6 @@ header{
     height:50px;
     line-height: 50px;
     width:100px;
-    text-align: center;
 }
 
 .to_login:hover{
@@ -75,7 +74,6 @@ header{
     height:50px;
     line-height: 50px;
     width:100px;
-    text-align: center;
 }
 
 .to_register:hover{
