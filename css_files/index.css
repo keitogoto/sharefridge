@@ -68,8 +68,8 @@ header{
     height:50px;
     line-height: 50px;
     width:100px;
-    padding-top:10px;
-    margin:0 auto;
+    padding:0px;
+    margin:10 auto;
 }
 
 .to_login:hover{
@@ -106,8 +106,8 @@ header{
     height:50px;
     line-height: 50px;
     width:100px;
-    padding-top:10px;
-    margin:0 auto;
+    padding:0px;
+    margin:10 auto;
 }
 
 .to_register:hover{
