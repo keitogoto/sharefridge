@@ -45,7 +45,7 @@ header{
 
 .to_login{
     padding: 0 10px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 50%, #888 50%);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0) 50%, #888 50%);
     background-position: 0 0;
     background-size: 200% auto;
     transition: .3s;
@@ -68,7 +68,7 @@ header{
 
 .to_register{
     padding: 0 10px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 50%,#888 50%);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0) 50%,#888 50%);
     background-position: 0 0;
     background-size: 200% auto;
     transition: .3s;
