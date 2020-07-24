@@ -51,7 +51,7 @@ header{
     display: block;
     height:50px;
     line-height: 50px;
-    width:100px;
+    /* width:100px; */
 }
 
 .to_login:hover{
@@ -72,7 +72,7 @@ header{
     display: block;
     height:50px;
     line-height: 50px;
-    width:100px;
+    /* width:100px; */
 }
 
 .to_register:hover{
@@ -86,5 +86,4 @@ header{
 
 .button-wrapper{
     margin: 0 auto;
-    width:200px;
 }
