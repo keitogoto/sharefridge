@@ -26,7 +26,7 @@
         <div id="funwithforms">
             <form action="#" method="post" onsubmit="return false;">
                 <fieldset>
-                    <legend>Contact form</legend>
+                    <legend>LOGIN FORM</legend>
                     <label for="name">Name</label><br class="br" /><input name="name" type="text" class="textfield"
                         id="name" /><br>
                     <label for="email">Email</label><br class="br" /><input name="email" type="text" class="textfield"
