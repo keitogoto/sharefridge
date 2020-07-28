@@ -1,7 +1,7 @@
 <?php
 
-$user = "ここにユーザー名が入ります";
-$password = "ここにパスワードが入ります";
+$user = $_POST["user_id"];
+$password = $_POST["pass"];
 
 try{
 
