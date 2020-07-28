@@ -6,9 +6,9 @@ $password = "ここにパスワードが入ります";
 try{
     $dbh = new PDO("mysql:host=localhost; dbname=sharefridge; charset=utf8", "$user", "$password");
 
-    $stmt = $dbh->prepare('SELECT * FROM users WHERE email = :email');
+    $stmt = $dbh->prepare('SELECT * FROM users WHERE user_id = :user_id');
 
-    $stmt->execute(array(':email' => $_POST['email']));
+    $stmt->execute(array(':user_id' => $_POST['user_id']));
 
     $result = $stmt->fetch(PDO::FETCH_ASSOC);
 
