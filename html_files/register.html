@@ -25,13 +25,25 @@
         <a class="to_top" href="index.html">TOP</a>
         <div id="funwithforms">
             <form action="../php_files/register.php">
-                <legend>REGISTER FORM</legend>
+                <!-- <legend>REGISTER FORM</legend>
                 <label for="user_id">USER ID</label><br class="br" /><input name="user_id" type="text" class="textfield"
                     id="user_id" /><br>
                 <label for="password">PASSWORD</label><br class="br" /><input name="password" type="text"
                     class="textfield" id="password" /><br />
                 <label for="submit">&nbsp;</label><br class="submit" /><input name="submit" type="submit" class="submit"
-                    id="submit" value="submit" />
+                    id="submit" value="submit" /> -->
+                <legend>REGISTER FORM</legend>
+                <p>
+                    <label>メールアドレス：</label>
+                    <input type="text" name="email">
+                </p>
+
+                <p>
+                    <label>パスワード：</label>
+                    <input type="password" name="pass">
+                </p>
+
+                <input type="submit" name="submit" value="会員登録する">
             </form>
         </div>
     </div>
