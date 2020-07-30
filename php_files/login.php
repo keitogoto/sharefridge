@@ -4,7 +4,8 @@ $user = $_POST["user_id"];
 $password = $_POST["pass"];
 
 try{
-    $dbh = new PDO("mysql:host=localhost; dbname=sharefridge; charset=utf8", "$user", "$password");
+    //$dbh = new PDO("mysql:host=localhost; dbname=sharefridge; charset=utf8", "$user", "$password");
+    $dbh = new PDO("mysql:host=localhost; dbname=sharefridge; charset=utf8", "keito", "0531");
 
     $stmt = $dbh->prepare('SELECT * FROM users WHERE user_id = :user_id');
 
