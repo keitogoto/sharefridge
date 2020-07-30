@@ -18,4 +18,8 @@ $stmt->execute(array(':user_id' => $_POST['user_id'],':password' => password_has
     die();
 }
 
+//リダイレクト処理
+header('Location: ../html_files/login.html');
+exit;
+
 ?>
