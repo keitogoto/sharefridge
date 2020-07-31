@@ -6,7 +6,7 @@ $password = $_POST["pass"];
 
 try{
     //$dbh = new PDO("mysql:host=localhost; dbname=sharefridge; charset=utf8", "$user", "$password");
-    $dbh = new PDO("mysql:host=localhost; dbname=sharefridge; charset=utf8", 'keito', 0531);
+    $dbh = new PDO("mysql:host=localhost; dbname=sharefridge; charset=utf8", 'keito', '0531');
 
     // $stmt = $dbh->prepare('SELECT * FROM users WHERE fridge_id = :fridge_id');
     $stmt = $dbh->prepare('SELECT * FROM fridges WHERE fridge_id = :fridge_id');
