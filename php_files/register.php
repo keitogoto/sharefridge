@@ -9,7 +9,7 @@ echo $_POST["fridge_id"];
 try{
 
 // $dbh = new PDO("mysql:host=localhost; dbname=sharefridge; charset=utf8", "$user", "$password");
-$dbh = new PDO("mysql:host=localhost; dbname=sharefridge; charset=utf8", 'keito', '0531');
+$dbh = new PDO("mysql:host=localhost; dbname=sharefridge; charset=utf8", 'keito', 0531);
 
 // $stmt = $dbh->prepare("INSERT INTO users (fridge_id, password) VALUES (:fridge_id, :password)");
 $stmt = $dbh->prepare("INSERT INTO fridges (fridge_id, password) VALUES (:fridge_id, :password)");
@@ -17,6 +17,7 @@ $stmt = $dbh->prepare("INSERT INTO fridges (fridge_id, password) VALUES (:fridge
 $stmt->execute(array(':fridge_id' => $_POST['fridge_id'],':password' => password_hash($_POST['pass'], PASSWORD_DEFAULT)));
 
 }catch(Exception $e){
+    echo $_POST["fridge_id"];
     echo "データベースの接続に失敗しました：";
     echo $e->getMessage();
     die();
