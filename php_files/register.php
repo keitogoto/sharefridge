@@ -1,6 +1,7 @@
 <?php
 
-$user = $_POST["fridge_id"];
+// $user = $_POST["fridge_id"];
+$fridge = $_POST["fridge_id"];
 $password = $_POST["pass"];
 
 try{
