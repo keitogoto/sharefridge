@@ -4,6 +4,8 @@
 $fridge = $_POST["fridge_id"];
 $password = $_POST["pass"];
 
+echo $_POST["fridge_id"];
+
 try{
 
 // $dbh = new PDO("mysql:host=localhost; dbname=sharefridge; charset=utf8", "$user", "$password");
