@@ -1,0 +1,116 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin:0px;
+}
+
+header{
+    background-color: #888;
+}
+
+.logo-wrapper{
+    float:left;
+    height:70px;
+    /* width:230px; */
+    width:auto;
+    text-align: center;
+    color: #fff;
+    line-height:70px;
+}
+
+.fridge-img{
+    width:45px;
+    height:45px;
+    /* float:left;これがあると、縦方向の真ん中に寄らない */
+    vertical-align:middle;
+}
+
+.logo{
+    font-size:25px;
+    margin:0px;
+    width:160px;
+    height:70px;
+    line-height:70px;
+    float:right;
+}
+
+.content{
+    flex: 1;
+    background-color: #eee;
+    text-align: center;
+    /* margin-top: 10px; */
+}
+
+.to_top{
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    font-weight: bold;
+    color: #888;/*文字色*/
+    background: #FFF;
+    border: solid 3px #888;/*線*/
+    border-radius: 10px;/*角の丸み*/
+
+    /* padding: 0.5em 1em;
+    margin: 2em 0;
+    color: white;
+    background: #888;
+    border-top: solid 5px #5d627b;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22); */
+
+    /* padding: 0 10px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 50%,#888 50%);
+    background-position: 0 0;
+    background-size: 200% auto;
+    transition: .3s; */
+    display: block;
+    height:30px;
+    line-height: 30px;
+    width:100px;
+    padding:0px;
+    margin:0 auto;
+    margin-top:20px;
+    text-decoration: none;
+}
+
+/*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  */
+
+form{
+    /* margin-top:20px; */
+    /* width:300px;
+    margin:0 auto; */
+}
+
+legend{
+    text-align: center;
+    color:#888;
+
+    background:transparent url(/content/img/css/funwithforms/legend_bg.gif) no-repeat;
+    font-size:1.5em;
+    font-weight:bold;
+}
+
+#funwithforms{
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    font-weight: bold;
+    color: #888;/*文字色*/
+    background: #FFF;
+    border: solid 3px #888;/*線*/
+    border-radius: 10px;/*角の丸み*/
+
+    width:300px;
+    margin:0 auto;
+    margin-top:20px;
+}
+
+.submit{
+    padding: 0.5em 1em;
+    /* margin: 2em 0; */
+    font-weight: bold;
+    color: #888;/*文字色*/
+    background: #FFF;
+    border: solid 3px #888;/*線*/
+    border-radius: 10px;/*角の丸み*/
+    margin-bottom: 15px;
+}
