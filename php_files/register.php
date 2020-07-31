@@ -23,8 +23,8 @@ $stmt->execute(array(':fridge_id' => $_POST['fridge_id'],':password' => password
     die();
 }
 
-// //リダイレクト処理
-// header('Location: ../html_files/login.html');
-// exit;
+//リダイレクト処理
+header('Location: ../html_files/login.html');
+exit;
 
 ?>
