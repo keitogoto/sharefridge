@@ -17,14 +17,18 @@ $stmt = $dbh->prepare("INSERT INTO fridges (fridge_id, password) VALUES (:fridge
 
 $stmt->execute(array(':fridge_id' => $_POST['fridge_id'],':password' => password_hash($_POST['pass'], PASSWORD_DEFAULT)));
 
+//リダイレクト処理
+header('Location: ../html_files/login.html');
+exit;
+
 }catch(Exception $e){
     echo "データベースの接続に失敗しました：";
     echo $e->getMessage();
     die();
 }
 
-//リダイレクト処理
-header('Location: ../html_files/login.html');
-exit;
+// //リダイレクト処理
+// header('Location: ../html_files/login.html');
+// exit;
 
 ?>
