@@ -130,7 +130,7 @@ table tr{
 }
 
 table tr:hover{
-    background-color: #d4f0fd;
+    background-color: #888;
 }
 
 table th,table td{
