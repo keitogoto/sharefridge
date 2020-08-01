@@ -48,9 +48,9 @@
 
         <!-- <div class="button-wrapper"> -->
         <!-- ログイン画面へ遷移 -->
-        <a class="to_login" href="login.html">LOGIN</a>
+        <!-- <a class="to_login" href="login.html">LOGIN</a> -->
         <!-- 新規登録画面へ遷移 -->
-        <a class="to_register" href="register.html">REGISTER</a>
+        <!-- <a class="to_register" href="register.html">REGISTER</a> -->
         <!-- </div> -->
     </div>
 </body>
