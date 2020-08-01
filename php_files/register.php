@@ -29,5 +29,8 @@ try {
     echo $e->getMessage();
     die();
 }
+
+?>
 </body>
+
 </html>
