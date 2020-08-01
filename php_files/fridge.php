@@ -21,14 +21,14 @@
         <a class="your-fridge" href="index.html">YOUR FRIDGE</a>
         <table>
             <tr>
-                <th>お名前</th>
-                <th>特技</th>
-                <th>担当カラー</th>
-                <th>住所</th>
+                <th>食材名</th>
+                <th>賞味期限</th>
+                <th>消費期限</th>
+                <!-- <th>住所</th> -->
             </tr>
-            <tr>
+            <!-- <tr>
                 <td class="icon bird">トリさん</td>
-                <td>空を飛ぶこと</td>
+                <td>賞味期限</td>
                 <td>グリーン</td>
                 <td>山</td>
             </tr>
@@ -42,7 +42,7 @@
                 <td class="icon crab">カニさん</td>
                 <td>反復横飛び</td>
                 <td>レッド</td>
-                <td>川</td>
+                <td>川</td> -->
             </tr>
         </table>
 
