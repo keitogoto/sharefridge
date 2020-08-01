@@ -18,7 +18,7 @@
         </a>
     </header>
     <div class="content">
-
+        <a class="your-fridge" href="index.html">YOUR FRIDGE</a>
         <table>
             <tr>
                 <th>お名前</th>
