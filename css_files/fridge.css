@@ -170,5 +170,7 @@ text-decoration: none;
 margin-top:20px;
 display: block;
 width:120px;
-position:center;
+/* position:center; */
+margin-left: auto;
+margin-right: auto;
 }
