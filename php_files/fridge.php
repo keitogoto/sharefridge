@@ -19,6 +19,7 @@
     </header>
     <div class="content">
         <p class="your-fridge">YOUR FRIDGE</p>
+        <a class="your-fridge" href="">食材登録</a>
         <table>
             <tr>
                 <th>食材名</th>
