@@ -18,6 +18,7 @@
         </a>
     </header>
     <div class="content">
+
         <table>
             <tr>
                 <th>お名前</th>
