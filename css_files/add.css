@@ -38,52 +38,11 @@ header{
 .content{
     flex: 1;
     background-color: #eee;
-    margin: 0 auto;
     text-align: center;
-    width:100%;
+    /* margin-top: 10px; */
 }
 
-.to_login{
-    padding: 0.5em 1em;
-    margin: 2em 0;
-    font-weight: bold;
-    color: #888;/*文字色*/
-    background: #FFF;
-    border: solid 3px #888;/*線*/
-    border-radius: 10px;/*角の丸み*/
-
-    /* padding: 0.5em 1em;
-    margin: 2em 0;
-    color: white;
-    background:#888;
-    border-top: solid 5px #5d627b;
-    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22); */
-
-    /* padding: 0 10px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 50%, #888 50%);
-    background-position: 0 0;
-    background-size: 200% auto;
-    transition: .3s; */
-    display:block;
-    height:50px;
-    line-height: 50px;
-    width:100px;
-    padding:0px;
-    margin:0 auto;
-    margin-top:20px;
-    text-decoration: none;
-}
-
-.to_login:hover{
-    background-position: -100% 0;
-    color: #fff;
-}
-
-.to_login:visited{
-    color : #888;
-}
-
-.to_register{
+.to_top{
     padding: 0.5em 1em;
     margin: 2em 0;
     font-weight: bold;
@@ -105,8 +64,8 @@ header{
     background-size: 200% auto;
     transition: .3s; */
     display: block;
-    height:50px;
-    line-height: 50px;
+    height:30px;
+    line-height: 30px;
     width:100px;
     padding:0px;
     margin:0 auto;
@@ -114,16 +73,44 @@ header{
     text-decoration: none;
 }
 
-.to_register:hover{
-    background-position: -100% 0;
-    color: #fff;
+/*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  */
+
+form{
+    /* margin-top:20px; */
+    /* width:300px;
+    margin:0 auto; */
 }
 
-.to_register:visited{
-    color : #888;
-}
-
-.button-wrapper{
-    margin: 0 auto;
+legend{
     text-align: center;
+    color:#888;
+
+    background:transparent url(/content/img/css/funwithforms/legend_bg.gif) no-repeat;
+    font-size:1.5em;
+    font-weight:bold;
+}
+
+#funwithforms{
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    font-weight: bold;
+    color: #888;/*文字色*/
+    background: #FFF;
+    border: solid 3px #888;/*線*/
+    border-radius: 10px;/*角の丸み*/
+
+    width:300px;
+    margin:0 auto;
+    margin-top:20px;
+}
+
+.submit{
+    padding: 0.5em 1em;
+    /* margin: 2em 0; */
+    font-weight: bold;
+    color: #888;/*文字色*/
+    background: #FFF;
+    border: solid 3px #888;/*線*/
+    border-radius: 10px;/*角の丸み*/
+    margin-bottom: 15px;
 }
