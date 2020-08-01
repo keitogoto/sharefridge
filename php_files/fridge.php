@@ -19,10 +19,11 @@
     </header>
     <div class="content">
         <p class="your-fridge">YOUR FRIDGE</p>
-        <a class="to-add" href="">食材登録</a>
+        <a class="to-add" href="../html_files/add.html">食材登録</a>
         <table>
             <tr>
                 <th>食材名</th>
+                <th>個数</th>
                 <th>賞味期限</th>
                 <th>消費期限</th>
                 <!-- <th>住所</th> -->
