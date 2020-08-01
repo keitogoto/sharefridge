@@ -167,4 +167,5 @@ border: solid 3px #888;/*線*/
 border-radius: 10px;/*角の丸み*/
 text-decoration: none;
 margin-top:20px;
+display: block;
 }
