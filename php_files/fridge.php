@@ -1,3 +1,12 @@
+<?php
+// ログインの確認
+session_start();
+if (!isset($_SESSION["fridge_id"])) {
+    // リダイレクト処理
+    header('Location: ../html_files/login.html');
+}
+?>
+
 <!DOCTYPE html>
 <html lang="ja">
 
@@ -10,7 +19,7 @@
 
 <body>
     <header>
-        <a href="index.html">
+        <a href="../html_files/index.html">
             <div class="logo-wrapper">
                 <img class="fridge-img" src="../images/fridge.png">
                 <p class="logo">sharefridge</p>
@@ -28,6 +37,24 @@
                 <th>消費期限</th>
                 <!-- <th>住所</th> -->
             </tr>
+            <?php
+            $fridge_id = $_SESSION["fridge_id"];
+
+            $dbh = new PDO("mysql:host=localhost; dbname=sharefridge; charset=utf8", 'keito', '0531');
+            $stmt = $dbh->prepare('SELECT name, count, shomikigen, shohikigen FROM contents WHERE fridge_id = :fridge_id');
+            $stmt->execute(array(':fridge_id' => $fridge_id));
+            $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
+            foreach ($result as $line) {
+                echo <<< EOF
+                    <tr>
+                        <td class="icon whale">{$line["name"]}</td>
+                        <td>{$line["count"]}</td>
+                        <td>{$line["shomikigen"]}</td>
+                        <td>{$line["shohikigen"]}</td>
+                    </tr>
+EOF;
+            }
+            ?>
             <!-- <tr>
                 <td class="icon bird">トリさん</td>
                 <td>賞味期限</td>
