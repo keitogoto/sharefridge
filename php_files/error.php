@@ -1,3 +1,11 @@
+<?php
+// ログインの確認
+session_start();
+if (!isset($_SESSION["fridge_id"])) {
+    // リダイレクト処理
+    header('Location: ../html_files/login.html');
+}
+?>
 <!DOCTYPE html>
 <html lang="ja">
 
@@ -23,8 +31,8 @@
     </header>
     <div class="content">
         <a href="register.html" class="error-title">ERROR</a>
-        <p class="error-massage">エラーメッセージエラーメッセージエラーメッセージ</p>
-        <a href="register.html" class="error-title">やり直す</a>
+        <p class="error-massage"><?php echo $_SESSION["error"] ?></p>
+        <a href="../html_files/add.html" class="error-title">やり直す</a>
         <!-- <div class="button-wrapper"> -->
         <!-- ログイン画面へ遷移 -->
         <!-- <a class="to_login" href="login.html">LOGIN</a> -->
