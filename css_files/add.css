@@ -40,7 +40,6 @@ header{
     background-color: #eee;
     text-align: center;
     /* margin-top: 10px; */
-    position:relative;
 }
 
 .to_top{
@@ -76,11 +75,11 @@ header{
 
 /*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  */
 
-/* form{
+form{
     /* margin-top:20px; */
     /* width:300px;
     margin:0 auto; */
-/* } */
+}
 
 legend{
     text-align: center;
@@ -114,80 +113,4 @@ legend{
     border: solid 3px #888;/*線*/
     border-radius: 10px;/*角の丸み*/
     margin-bottom: 15px;
-}
-
-/* ------------------------------------------------------------- */
-
-table{
-    border-collapse: collapse;
-    border-spacing: 0;
-    width: 100%;
-}
-
-table tr{
-    border-bottom: solid 1px #eee;
-    cursor: pointer;
-}
-
-table tr:hover{
-    background-color: #888;
-}
-
-table th,table td{
-    text-align: center;
-    width: 25%;
-    padding: 15px 0;
-}
-
-table td.icon{
-    background-size: 35px;
-    background-position: left 5px center;
-    background-repeat: no-repeat;
-    padding-left: 30px;
-}
-
-table td.icon.bird{
-    background-image: url(icon-bird.png)
-}
-
-table td.icon.whale{
-    background-image: url(icon-whale.png)
-}
-
-table td.icon.crab{
-    background-image: url(icon-crab.png)
-}
-
-.your-fridge{
-padding: 0.5em 1em;
-/* margin: 2em 0; */
-font-weight: bold;
-color: #888;/*文字色*/
-background: #FFF;
-border: solid 3px #888;/*線*/
-border-radius: 10px;/*角の丸み*/
-text-decoration: none;
-margin-top:20px;
-display: block;
-width:120px;
-/* position:center; */
-margin-left: auto;
-margin-right: auto;
-}
-
-.to-add{
-padding: 0.5em 1em;
-/* margin: 2em 0; */
-font-weight: bold;
-color: #888;/*文字色*/
-background: #FFF;
-border: solid 3px #888;/*線*/
-border-radius: 10px;/*角の丸み*/
-text-decoration: none;
-margin-top:20px;
-display: block;
-width:120px;
-/* position:center; */
-margin-left: auto;
-margin-right: auto;
 }
