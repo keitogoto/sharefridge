@@ -134,7 +134,7 @@ header{
     font-weight: bold;
     color: #EF3940;/*文字色*/
     background: #FFF;
-    border: solid 3px #EF3940;/*線*/
+    /* border: solid 3px #EF3940; */
     border-radius: 10px;/*角の丸み*/
 
     /* padding: 0.5em 1em;
