@@ -165,7 +165,7 @@ header{
     font-weight: bold;
     color: #EF3940;/*文字色*/
     background: #FFF;
-    border-bottom: solid 3px #EF3940;/*線*/
+    border-bottom: solid #EF3940;/*線*/
     border-radius: 10px;/*角の丸み*/
 
     /* padding: 0.5em 1em;
@@ -183,7 +183,7 @@ header{
     display:block;
     height:50px;
     line-height: 50px;
-    width:100px;
+    width:auto;
     padding:0px;
     margin:0 auto;
     margin-top:20px;
